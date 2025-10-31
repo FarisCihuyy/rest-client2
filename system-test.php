@@ -3,7 +3,7 @@
 // White Box Testing REST Client PHP untuk NewsAPI.org
 
 $baseUrl = "https://newsapi.org/v2/";
-$apiKey  = "998c533e03cc47aba0f31889c30d61ca"; // Ganti dengan API key kamu
+$apiKey  = "YOUR_API_KEY"; // Ganti dengan API key kamu
 
 /**
  * Fungsi pemanggil API dengan curl agar bisa tangani HTTP error
