@@ -1,7 +1,7 @@
 <?php
   require 'config/config.php';
 
-  $API_KEY = "998c533e03cc47aba0f31889c30d61ca";
+  $API_KEY = "YOUR_API_KEY";
   $URL = "https://newsapi.org/v2/top-headlines?country=us&apiKey=".$API_KEY;
 
   $response = http_request_get($URL);
